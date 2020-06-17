@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+div li {
+  display: flex;
+  align-items: center;
+}
+
+div li + li {
+  margin-top: 15px;
+}
+
+button,
+.add {
+  background: #7159c1;
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+div li button {
+  margin: 0 15px;
+  background: #ca4949;
+}
+
+.chips {
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+}
+.chips li {
+  float: left !important;
+  margin: 0px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.chips li .title,
+.chips li .remove-chip {
+  margin: 0px 0px;
+  float: left;
+  display: block;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0;
+}
+.chips li .title {
+  background: #eee;
+  color: #333;
+}
+.chips li .remove-chip {
+  background: #ca4949;
+  color: #fff;
+  cursor: pointer;
+}
+.chips li .add {
+  margin-top: 0px;
+}
+
+.form {
+  border: 1px dashed #a1a1a1;
+  display: inline-block;
+  width: 30%;
+  min-width: 300px;
+  padding: 20px;
+}
+.form .form-item {
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+  width: 100%;
+}
+.form .form-item label,
+.form .form-item {
+  display: inline-block;
+  width: 100%;
+}
+.form .form-item label {
+  margin-bottom: 5px;
+}
+.form .form-item input {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: 1px solid #a1a1a1;
+}
